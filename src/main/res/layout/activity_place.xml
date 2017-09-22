@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_place"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.scg.craton.scgsurveyapp.SurveyActivity"
+    android:background="@drawable/clean_back"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/area_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="MACHIKIRI"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <org.apmem.tools.layouts.FlowLayout
+        android:id="@+id/category_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

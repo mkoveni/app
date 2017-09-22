@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="btn">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+
+    <style name="textField">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="thumbnails">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="admin_thumbs">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="spinnerStyle">@style/SpinnerAppTheme</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="list_textview">
+        <item name="android:layout_marginRight">70dp</item>
+    </style>
+    <style name="list_textview_header" parent="list_textview">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="list_item_text">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_marginRight">120dp</item>
+    </style>
+
+    <style name="dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+
+    <style name="SearchableDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@color/colorRed</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@style/dialog_animations</item>
+        <item name="android:gravity">center</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="spinnerStyle" parent="@android:style/TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:background">@color/colorRed</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="SpinnerAppTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+</resources>

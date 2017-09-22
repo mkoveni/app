@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clean_back">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/machikiri_btn">
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="64dp"
+                android:src="@drawable/checklist"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MACHIKIRI \nQUESTIONNAIRE"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/danisane_btn">
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="64dp"
+                android:src="@drawable/checklist"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DANISANE \nQUESTIONNAIRE"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/mashehleng_btn">
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="64dp"
+                android:src="@drawable/checklist"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MASHEHLENG \nQUESTIONNAIRE"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingTop="10dp"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/img_check"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/checklist"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dp"/>
+    <TextView
+        android:id="@+id/grid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_vertical"
+        android:paddingTop="6dip"
+        android:maxLines="1"
+        android:text="Machikiri"
+        android:layout_margin="4dp"
+        android:layout_gravity="center_horizontal"
+        style="@style/textField"
+        />
+</LinearLayout>
